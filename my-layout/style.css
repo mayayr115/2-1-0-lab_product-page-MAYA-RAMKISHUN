@@ -1,0 +1,93 @@
+#logo {
+  width: 15%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  font-size: 1.3rem;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bolder;
+}
+
+/* Doesn't work */
+.label {
+  border: 2cap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Display doesn't work */
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 8%;
+  height: 25px;
+  background-color: gold;
+  font-weight: bold;
+  border: 0cap;
+}
+
+.icons {
+  width: 3%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+/* Doesn't work */
+iframe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-item {
+
+  border: 2px solid black;
+  /* Use flex to center the inner p element */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-container {
+  margin: 20px;
+  padding: 30px;
+  
+  /* Grid Props*/
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  grid-auto-rows: 1fr;
+  
+  gap: 1em;
+}
+
+.footer {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-size: 0.8rem;
+}
+
+#copyright {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-size: 0.5rem;
+}
